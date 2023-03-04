@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .rar{
+            width: 100%;
+            height: 100vh;
+            font-size: 90px;
+            color: rgb(255, 255, 255);
+              display: flex;
+              justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(54deg, rgb(26, 26, 32), rgb(29, 28, 29), rgb(12, 11, 11));
+        }
+
+        .rar>span{
+            background-image: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            -webkit-box-reflect: below -10px linear-gradient(to bottom,rgba(0, 0, 0,0.0),rgba(0,0,0, 0.6));
+            animation-delay: 5s;
+        }
+
+
+        .rar>span:nth-of-type(1){
+            animation: txt1 1.9s linear infinite 0.7s;
+        }
+        .rar>span:nth-of-type(2){
+            animation: txt2 1.9s linear infinite 0.7s;
+        }
+        .rar>span:nth-of-type(3){
+            animation: txt3 1.9s linear  infinite 0.7s;
+        }
+        .rar>span:nth-of-type(4){
+            animation: txt4 1.9s linear infinite 0.7s;
+        }
+        .rar>span:nth-of-type(5){
+            animation: txt5 1.9s linear infinite 0.7s;
+        }
+        .rar>span:nth-of-type(6){
+            animation: txt6 1.9s linear infinite 0.7s;
+        }
+
+        
+        @keyframes txt1 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(-40%);}
+            34%{transform: translateY(0);}
+            100%{transform: translateY(0);}
+        }
+        @keyframes txt2 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(0);}
+            34%{transform: translateY(-40%);}
+            50%{transform: translateY(0);}
+            100%{transform: translateY(0);}
+        }
+        @keyframes txt3 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(0);}
+            34%{transform: translateY(0);}
+            50%{transform: translateY(-40%);}
+            67%{transform: translateY(0);}
+            100%{transform: translateY(0);}
+        }
+        @keyframes txt4 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(0);}
+            34%{transform: translateY(0);}
+            50%{transform: translateY(0);}
+            67%{transform: translateY(-40%);}
+            83%{transform: translateY(0);}
+            100%{transform: translateY(0);}
+        }
+        @keyframes txt5 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(0);}
+            34%{transform: translateY(0);}
+            50%{transform: translateY(0);}
+            67%{transform: translateY(0);}
+            83%{transform: translateY(-40%);}
+            100%{transform: translateY(0);}
+        }
+        @keyframes txt6 {
+            0%{transform: translateY(0);}
+            17%{transform: translateY(0);}
+            34%{transform: translateY(0);}
+            50%{transform: translateY(0);}
+            67%{transform: translateY(0);}
+            83%{transform: translateY(0);}
+            98%{transform: translateY(-40%);}
+            100%{transform: translateY(0);}
+        }
+        </style>
+</head>
+<body>
+    <section class="rar">
+        <span>C</span>
+        <span>O</span>
+        <span>D</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+    </section>
+</body>
+</html>
